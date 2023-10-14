@@ -1,0 +1,66 @@
+
+ 
+ body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+  }
+    
+  form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+  }
+       
+       p{
+          font-size: 0.9em;
+       }
+       
+       button{
+          width: 100%;
+          text-align: center;
+          color: grey;
+          margin-top: 20px;
+          border: 1px solid rgba(0,0,0,0.4);
+       }
+       
+       .form-group{
+          margin: 15px auto;
+       }
+          label{
+             font-weight: bold;
+             font-size: 0.9em;
+          }
+          
+          .input-group{
+             border-radius: 5px;
+             -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+             -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+             box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+          }
+             
+             .input-group-addon{
+                border: none;
+                border-right: 1px solid rgba(0,0,0,0.2);
+             }
+            
+             
+             input{
+                padding-left: 10px;
+             }
+             
+             i{
+                color: #009EDF;
+             }
+          
+          
+          input{
+             padding: 3px;
+             width: 100%;
+             border: none;
+             border-radius: 0 5px 5px 0;
+          }
+       
+    
+ 

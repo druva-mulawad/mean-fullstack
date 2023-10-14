@@ -1,0 +1,42 @@
+<!-- 
+<form [formGroup]="registration" (ngSubmit)="register()">
+    <div class="form">
+
+        <div class="tab-group">
+        <ul>
+            <li><input type="email" placeholder="enter email" name="Email" formControlName="email"></li>
+            <li><input type="password" placeholder="enter password" name="password" formControlName="password"></li>
+        </ul>
+        <button>Register</button>
+
+        </div>
+
+    </div> -->
+
+
+    <form [formGroup]="registrationData" (ngSubmit)="register()">
+        
+        <div class="form-group">
+           <label for="email">Your Email</label>
+           <br />
+           <div class="input-group">
+              <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+              <input type="email" id="email" placeholder="Enter Your Email" formControlName="email"/>
+              </div>
+           </div>
+        
+        <div class="form-group">
+           <label for="password">Your Password</label>
+           <br />
+           <div class="input-group">
+              <div class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+              <input type="text" id="password" placeholder="Enter Your Password" formControlName="password"/>
+              </div>
+           </div>
+        
+        
+        
+        
+        
+        <button>Register</button>
+     </form>
